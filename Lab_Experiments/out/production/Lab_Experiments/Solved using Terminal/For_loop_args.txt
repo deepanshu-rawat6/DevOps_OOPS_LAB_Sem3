@@ -1,0 +1,19 @@
+public class For_loop_args{
+	publlic static void main(String[] args){
+		System.out.println("Hello World!");
+		for(String str:args){
+			System.out.println(s);
+	}
+}
+
+
+
+/*
+
+Alterntaive approach
+
+for(String str:args){
+	System.out.println(str);
+}
+
+*/
