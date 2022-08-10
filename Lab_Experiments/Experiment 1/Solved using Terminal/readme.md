@@ -1,9 +1,7 @@
 The following were executed using:
 
-First,
+```
+Firstly, javac <class_name>.java
 
->javac <class_name>.java
-
-Then
-
->java <class_name>
+Then, java <class_name>
+```
