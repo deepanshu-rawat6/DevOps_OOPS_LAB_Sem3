@@ -6,4 +6,10 @@ public class For_loop_args{
 		}
 	}
 }
+/* Alternative approach:
+ *   
+ * 	  for(String str:args){
+ * 			System.out.println(str);
+ * 	  }
+ */
 
