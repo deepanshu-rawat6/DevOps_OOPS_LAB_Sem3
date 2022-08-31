@@ -11,9 +11,9 @@ public class Employee {
     }
     double calc_Gross(int sal){
 //        System.out.println(this.BS);
-        double hra=(0.1)*(this.BS);
-        double da=(0.5)*(this.BS);
-        double ta=(0.05)*(this.BS);
+        double hra=(0.1)*(BS);
+        double da=(0.5)*(BS);
+        double ta=(0.05)*(BS);
         return (this.BS)+hra+da+ta+sal;
     }
     double calc_Gross(){
@@ -43,9 +43,9 @@ public class Employee {
         System.out.println();
         System.out.println("Employee Name: "+name);
         if(JS==1){
-            System.out.println("Permanent");
+            System.out.println("Job Status: Permanent");
         }else{
-            System.out.println("Probation");
+            System.out.println("Job Status: Probation");
         }
         System.out.println("Basic Salary: "+BS);
         System.out.println("Net Salary: "+NS);
