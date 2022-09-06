@@ -1,7 +1,7 @@
 class A{
     private int a=10;
     int b=20;
-    static int sum(){
+    int sum(){
         return a+b;
     }
 }
@@ -11,7 +11,7 @@ class A{
 public class AccessSpecifiers {
     public static void main(String[] args) {
         A obj=new A();
-        System.out.println(sum());
+        System.out.println(obj.sum());
 //        System.out.println(obj.a+obj.b);
 //        obj.b=5;
 //        System.out.println(obj.sum());
