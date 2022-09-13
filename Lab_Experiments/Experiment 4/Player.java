@@ -7,7 +7,7 @@ class Player {
     }
     void display() {
         System.out.println("Player Name:" + this.name);
-        System.out.println("Sport Name:" + this.sport);
+        System.out.println("Sport Name:" + this.sport+"\n");
     }
 }
 class Cricket_Player extends Player{

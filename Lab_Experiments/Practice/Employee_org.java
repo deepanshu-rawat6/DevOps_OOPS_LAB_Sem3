@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Employee {
+public class Employee_org {
     String name;
     int JS;
     int BS;
-    Employee(String n,int bs,int js){
+    Employee_org(String n,int bs,int js){
         this.name=n;
         this.JS=js;
         this.BS=bs;
@@ -59,7 +59,7 @@ public class Employee {
         int bs=sc.nextInt();
         System.out.print("Enter 1 for Permanent or 2 for Probation:");
         int j=sc.nextInt();
-        Employee obj=new Employee(n,bs,j);
+        Employee_org obj=new Employee_org(n,bs,j);
 //        Employee ob1=new Employee("abc",20000,1);
 //        Employee ob2=new Employee("fgh",200000,1);
         obj.calc_netsal();

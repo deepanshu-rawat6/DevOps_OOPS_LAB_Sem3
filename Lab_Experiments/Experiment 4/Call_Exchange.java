@@ -23,12 +23,16 @@ class Cost_cal extends Call_Exchange{
     }
     void cal(){
         double rate=super.Cal_rate();
-        System.out.println("The cost of the trunk call: "+this.duration*rate);
+        System.out.println("The cost of the trunk call: "+this.duration*rate+"\n");
     }
 }
 class Test{
     public static void main(String[] args) {
         Cost_cal obj=new Cost_cal("lightning",300);
+        Cost_cal ob1=new Cost_cal("urgent",400);
+        Cost_cal ob2=new Cost_cal("ordinary",500);
         obj.cal();
+        ob1.cal();
+        ob2.cal();
     }
 }

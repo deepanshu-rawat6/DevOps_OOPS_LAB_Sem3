@@ -37,8 +37,8 @@ public class Ranged_SUm {
 
         // execution time
         long execution1 = end1 - start1;
-        System.out.println("Execution time: " + execution + " nanoseconds");
-        System.out.println("Execution time: " + execution1 + " nanoseconds");
+        System.out.println("Execution time by recursion: " + execution + " nanoseconds");
+        System.out.println("Execution time by iteration: " + execution1 + " nanoseconds");
 
         System.out.println("Output:"+ans);
 
