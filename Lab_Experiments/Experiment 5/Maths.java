@@ -2,7 +2,7 @@ interface Cal{
     float div(int a,int b);
     int mod(int a,int b);
 }
-public class Math implements Cal {
+public class Maths implements Cal {
     @Override
     public float div(int a, int b) {
         return (float)a/b;
@@ -14,7 +14,7 @@ public class Math implements Cal {
     }
 
     public static void main(String[] args) {
-        Math obj=new Math();
+        Maths obj=new Maths();
         System.out.println(obj.div(20,5));
         System.out.println(obj.mod(5,4));
     }
