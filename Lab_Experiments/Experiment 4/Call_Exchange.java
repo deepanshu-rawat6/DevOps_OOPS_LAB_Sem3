@@ -26,7 +26,7 @@ class Cost_cal extends Call_Exchange{
         System.out.println("The cost of the trunk call: "+this.duration*rate+"\n");
     }
 }
-class Test{
+class Test1{
     public static void main(String[] args) {
         Cost_cal obj=new Cost_cal("lightning",300);
         Cost_cal ob1=new Cost_cal("urgent",400);
