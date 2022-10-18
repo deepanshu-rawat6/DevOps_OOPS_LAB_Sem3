@@ -4,7 +4,7 @@ interface Test{
      int square(int a);
 }
 
-class Arithmetic implements Test{
+class   Arithmetic implements Test{
     public int square(int a){
         return a*a;
     }

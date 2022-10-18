@@ -1,4 +1,4 @@
-class A{
+class AB{
     private int a=10;
     int b=20;
     int sum(){
@@ -10,7 +10,7 @@ class A{
 //They can only be access in class methods
 public class AccessSpecifiers {
     public static void main(String[] args) {
-        A obj=new A();
+        AB obj=new AB();
         System.out.println(obj.sum());
 //        System.out.println(obj.a+obj.b);
 //        obj.b=5;
