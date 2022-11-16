@@ -1,4 +1,4 @@
-class Printer
+class Printer1
 { 
     // Initial 100 paper are set in Printer
     int noOfPaper = 100; 
