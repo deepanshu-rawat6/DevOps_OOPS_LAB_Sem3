@@ -1,9 +1,6 @@
 package Collections;
 
-import java.util.Hashtable;
-import java.util.Queue;
-import java.util.Stack;
-import java.util.Vector;
+import java.util.*;
 
 public class CollectionDemo {
     public static void main(String[] args) {
@@ -35,6 +32,26 @@ public class CollectionDemo {
 //        printing the last entered value of the stack
         System.out.println(stack.peek());
         stack.pop();
+
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = 1; i <= 5 ; i++) {
+            list.add(i);
+        }
+
+        System.out.println(list);
+
+        list.remove(3);
+
+        System.out.println(list);
+
+        for (int i = 0; i < 4; i++) {
+            System.out.print("\n" + list.get(i) + " ");
+        }
+
+        System.out.println();
+        for(int i:list) {
+            System.out.print(i + " ");
+        }
 
 
     }
