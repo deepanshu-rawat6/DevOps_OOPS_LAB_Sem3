@@ -2,6 +2,7 @@ class Even extends Thread {
 //    Thread t;
     Even () {
 //        t = new Thread(this);
+        System.out.println("\nEven Numbers:");
         start();
     }
     @Override
@@ -18,6 +19,7 @@ class Odd extends Thread {
 //    Thread t;
     Odd () {
 //        t = new Thread(this);
+        System.out.println("\nOdd Numbers:");
         start();
     }
     @Override
