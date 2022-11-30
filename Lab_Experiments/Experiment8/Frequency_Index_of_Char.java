@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class Frequency_Index_of_Char {
     public void compute(){
         Scanner sc = new Scanner(System.in);
-        String str = "Deepanshu";
+        System.out.println("Enter the string: ");
+        String str = sc.nextLine();
         int freq = 0;
         int len = str.length();
         ArrayList<Integer> index = new ArrayList<>();
@@ -14,7 +15,7 @@ public class Frequency_Index_of_Char {
                 index.add(i);
             }
         }
-        System.out.println("Length of my name : "+len);
+        System.out.println("\nLength of my name : "+len);
         System.out.println("Frequency of 'a' : "+freq);
         System.out.println("Indices of 'a' : "+index);
     }

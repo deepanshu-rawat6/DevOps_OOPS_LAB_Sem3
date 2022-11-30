@@ -15,10 +15,14 @@ public class Car_Collision  {
         String model1,direction1,model2,direction2;
         Scanner sc = new Scanner(System.in);
         System.out.println("\nEnter the details of Car 1");
+        System.out.println("Enter the model of the car: ");
         model1 = sc.nextLine();
+        System.out.println("Enter the direction of the car: ");
         direction1 = sc.nextLine();
         System.out.println("\nEnter the details of Car 2");
+        System.out.println("Enter the model of the car: ");
         model2 = sc.nextLine();
+        System.out.println("Enter the direction of the car: ");
         direction2 = sc.nextLine();
         compute(direction1,direction2);
     }

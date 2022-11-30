@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class UpperCaseString {
     public void UpperCase(){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the string: ");
         String str = sc.nextLine();
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < str.length(); i++) {
@@ -13,7 +14,7 @@ public class UpperCaseString {
                 sb.append(ch);
             }
         }
-        System.out.println(sb);
+        System.out.println("\nThe processed string: \n" + sb);
     }
     public static void main(String[] args) {
         UpperCaseString obj = new UpperCaseString();

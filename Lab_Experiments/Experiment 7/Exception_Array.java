@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Student_Arr {
     String name;
     int roll_no;
@@ -5,12 +7,15 @@ class Student_Arr {
         this.name = name;
         this.roll_no = roll_no;
     }
-    public void printing(String s,int rn) {
-        System.out.println("Name : +" + s + "Roll no : " + rn);
+    public void printing() {
+        System.out.println("Name : " + this.name + "\nRoll no : " + this.roll_no);
     }
 }
 public class Exception_Array {
     public void helper() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the index of the array to be accessed: ");
+        int n = sc.nextInt();
         Student_Arr[] arr = new Student_Arr[10];
         arr[0] = new Student_Arr("Deepanshu",692);
         arr[1] = new Student_Arr("Deepanshu",692);
@@ -23,8 +28,8 @@ public class Exception_Array {
         arr[8] = new Student_Arr("Deepanshu",692);
         arr[9] = new Student_Arr("Deepanshu",692);
         try {
-            arr[10] = new Student_Arr("random",10);
-            arr[1].printing("random_code",123);
+            arr[n] = new Student_Arr("DELL",10);
+            arr[n].printing();
         } catch(ArrayIndexOutOfBoundsException e) {
             System.out.println("Please access the correct array index");
         }
