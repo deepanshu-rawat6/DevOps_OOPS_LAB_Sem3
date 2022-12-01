@@ -4,6 +4,7 @@ import java.util.*;
 
 public class CollectionDemo {
     public static void main(String[] args) {
+        String str = null;
 //      creating instances of array
         int[] arr = new int[]{1,2,3,4};
 //        creating a Vector object v
